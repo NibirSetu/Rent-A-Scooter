@@ -8,9 +8,21 @@
   font-family: "Poppins", sans-serif;
   color: rgb(54, 54, 59);
 }
-
+#pickup-date {
+  font-size: 10px;
+  text-decoration: none;
+}
 #nav-link {
   font-family: "Nunito", sans-serif;
+  list-style: none;
+}
+
+#nav-link li a {
+  transition: all 0.3s ease 0s;
+}
+
+#nav-link li a:hover {
+  color: rgb(238, 107, 32);
 }
 
 #btn-clr {
@@ -27,7 +39,7 @@
   align-items: center;
   justify-content: center;
 }
-#container {
+#right-container {
   position: relative;
   margin: 100px;
 }
@@ -81,8 +93,8 @@
 /* price  */
 .container-ex1 .box6 {
   position: absolute;
-  margin-top: -45%;
-  left: 220px;
+  margin-top: -15%;
+  left: 250px;
   z-index: 1;
 }
 
